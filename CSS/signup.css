@@ -1,0 +1,116 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("..//Images/123.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    font-family: "Cairo", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.log {
+    position: absolute; /* يجعل الشعار ثابتًا في مكانه */
+    top: 20px; /* تحديد مكان الشعار من الأعلى */
+    left: 20px; /* تحديد مكان الشعار من اليسار */
+    z-index: 10; /* التأكد من أن الشعار فوق باقي العناصر */
+}
+
+.log .logo img {
+    width: 80px;
+    margin-left: 20px; /* تعديل هذه القيمة لتغيير مكان الشعار */
+}
+
+.Form_parent {
+    width: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px 40px;
+    backdrop-filter: blur(8px);
+    margin-left: -800px;
+}
+
+.Form_parent .Head h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.iput {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+.iput::placeholder {
+    color: #fff;
+}
+
+.Dont {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+    margin: 10px 0;
+    letter-spacing: 1px;
+}
+
+.Dont p .link:hover {
+    border-bottom: 2px solid #e4b95b;
+}
+
+#btnsignin {
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    background: #fff;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btnsignin:hover {
+    background: #e4b95b;
+}
+
+.Register {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.Register p {
+    color: #fff;
+}
+
+.Register a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.Register a:hover {
+    text-decoration: underline;
+}
