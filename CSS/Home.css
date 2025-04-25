@@ -371,16 +371,16 @@ header * {
 form {
     width: 50%;
 }
-
+/* 
 form input,
-textarea {
+/* textarea {
     display: block;
     width: 100%;
     padding: 20px 15px;
     margin: 20px 0;
     border: none;
     background-color: #e3e2dd;
-}
+} */ */
 
 #contact .btn {
     background: #e4b95b;
@@ -402,6 +402,8 @@ textarea {
     color: #fff;
     padding: 15px 0;
     font-size: 14px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
